@@ -1,0 +1,181 @@
+.top {
+  background-color: greenyellow;
+  align-items: center;
+  background-color: rgba(7, 196, 16, 0.849);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.top:hover,
+.top:focus {
+  background-color: greenyellow;
+  color: #ffffff;
+}
+
+.top:active {
+  background: green;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.donate-button {
+  position: absolute;
+  left: 1250px;
+  top: 20px;
+  height: 240px;
+  padding-bottom: 300px;
+}
+.headings {
+  padding-top: 40px;
+}
+h4 {
+  font-size: 16px;
+  font-family: Arial;
+}
+h2 {
+  padding-top: 4px;
+  font-family: Arial;
+  font-size: 40px;
+  text-decoration: none;
+}
+.down-button {
+  padding-top: 25px;
+}
+.first-image {
+  padding-top: 170px;
+}
+.box-text {
+  width: 540px;
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+  padding-left: 430px;
+}
+.hbox {
+  font-size: 27px;
+}
+.content {
+  font-size: 20px;
+}
+.two-images {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  position: absolute;
+  padding-left: 200px;
+}
+.gallery {
+  margin-right: 20px;
+}
+.colums {
+  display: flex;
+  padding-top: 300px;
+}
+.first-colum {
+  float: left;
+
+  height: 300px;
+}
+.first-colum p {
+  font-size: 20px;
+}
+.second-colum {
+  height: 300px;
+}
+.second-colum p {
+  font-size: 20px;
+}
+.third-colum {
+  float: right;
+  height: 300px;
+}
+.third-colum p {
+  font-size: 20px;
+}
+.box {
+  width: 1000px;
+  height: 100px;
+  padding: 50px;
+  margin: 20px;
+}
+.bottom-image {
+  padding-top: 220px;
+}
+.bottom-image h2 {
+  position: absolute;
+  top: 2650px;
+  font-family: cursive;
+  color: white;
+}
+#bottom {
+  position: absolute;
+  top: 2850px;
+  right: 550px;
+  margin: 0;
+}
+
+.themplates {
+  position: absolute;
+  top: 3150px;
+  right: 1000px;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 12px;
+}
+.links {
+  position: absolute;
+  top: 3172px;
+  left: 600px;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.last {
+  position: absolute;
+  top: 3172px;
+  left: 1000px;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 12px;
+}
